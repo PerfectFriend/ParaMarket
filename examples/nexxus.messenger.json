@@ -1,0 +1,14 @@
+{
+  "id": "nexxus.messenger",
+  "name": "NeXX Messenger",
+  "version": "0.1.0",
+  "description": "SimpleX-transport messenger for NeXXuS. Session-scoped; no seed access.",
+  "permissions": ["transport.send", "transport.recv", "profile.read", "notify.local"],
+  "entry": {
+    "android": "com.nexxus.messenger.MainActivity",
+    "flutter": "nexxus.messenger.Main"
+  },
+  "min_identity_sdk": "1.0.0",
+  "publisher": "PerfectFriend",
+  "categories": ["messenger"]
+}

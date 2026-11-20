@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nexxus.local/schema/nexxus-app.json",
+  "title": "NeXXuS / ParaMarket application manifest",
+  "type": "object",
+  "required": ["id", "name", "version", "permissions", "entry", "min_identity_sdk"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)+$",
+      "description": "Reverse-domain store id, e.g. nexxus.messenger"
+    },
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+([-.][A-Za-z0-9.]+)?$"
+    },
+    "description": { "type": "string", "maxLength": 2000 },
+    "permissions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "transport.send",
+          "transport.recv",
+          "storage.blob",
+          "profile.read",
+          "profile.write",
+          "payments.read",
+          "payments.send",
+          "notify.local"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Platform → component class or route"
+    },
+    "min_identity_sdk": { "type": "string" },
+    "publisher": { "type": "string" },
+    "signature": {
+      "type": "string",
+      "description": "Detached signature over canonical manifest bytes (hex or base64); required for store-0.2+"
+    },
+    "icons": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "format": "uri" }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["messenger", "social", "game", "market", "media", "finance", "utility", "system"]
+      }
+    }
+  }
+}
