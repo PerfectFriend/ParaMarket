@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/banner-market-mesh.svg" alt="ParaMarket — NeXXuS app mesh" width="100%" />
+  <img src="docs/assets/banner.jpg" alt="ParaMarket — NeXXuS app mesh" width="100%" />
 </p>
 
 # ParaMarket
@@ -85,10 +85,6 @@ ParaMarket/
 MIT (unless a subdirectory states otherwise).
 
 ---
-
-<p align="center">
-  <img src="docs/assets/banner-data-economy.svg" alt="Sovereign data economy" width="100%" />
-</p>
 
 <a id="русский"></a>
 ## Русский
@@ -185,3 +181,9 @@ Las claves quedan en el usuario · los nodos ven cifrado · el catálogo vive en
 ### Licencia
 
 MIT (salvo indicación en un subdirectorio).
+
+---
+
+<p align="center">
+  <img src="docs/assets/footer.jpg" alt="Sovereign data economy" width="100%" />
+</p>
