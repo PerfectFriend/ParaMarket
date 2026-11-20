@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" role="img">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0c1929"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="stream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="g2"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="560" fill="url(#bg2)"/>
+  <g fill="#0f172a" opacity="0.9">
+    <rect x="900" y="220" width="40" height="200"/><rect x="950" y="180" width="50" height="240"/>
+    <rect x="1010" y="240" width="35" height="180"/><rect x="1060" y="150" width="60" height="270"/>
+    <rect x="1130" y="200" width="45" height="220"/><rect x="1190" y="170" width="55" height="250"/>
+    <rect x="1260" y="230" width="40" height="190"/>
+  </g>
+  <g filter="url(#g2)">
+    <rect x="80" y="120" width="220" height="140" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <text x="100" y="150" font-family="Segoe UI, Arial" font-size="14" fill="#7dd3fc">DATA APP</text>
+    <rect x="100" y="165" width="160" height="10" rx="3" fill="#22d3ee" opacity="0.5"/>
+    <rect x="100" y="185" width="120" height="10" rx="3" fill="#a78bfa" opacity="0.45"/>
+    <rect x="100" y="220" width="100" height="22" rx="6" fill="#0369a1"/><text x="115" y="235" font-family="Segoe UI, Arial" font-size="11" fill="#e0f2fe">SHARE DATA</text>
+    <rect x="80" y="300" width="220" height="140" rx="16" fill="#0f172a" stroke="#c084fc" stroke-width="2"/>
+    <text x="100" y="330" font-family="Segoe UI, Arial" font-size="14" fill="#e9d5ff">GAME CLIENT</text>
+    <rect x="100" y="350" width="160" height="50" rx="8" fill="#312e81"/>
+    <rect x="100" y="415" width="120" height="22" rx="6" fill="#6b21a8"/><text x="112" y="430" font-family="Segoe UI, Arial" font-size="11" fill="#f3e8ff">CONTRIBUTE</text>
+  </g>
+  <g stroke="url(#stream)" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M300,190 C480,170 620,210 780,260"/>
+    <path d="M300,370 C500,340 640,300 780,280"/>
+  </g>
+  <g fill="#67e8f9" filter="url(#g2)">
+    <rect x="420" y="175" width="14" height="14" transform="rotate(25 427 182)" opacity="0.9"/>
+    <rect x="480" y="200" width="12" height="12" transform="rotate(15 486 206)" opacity="0.8"/>
+    <rect x="540" y="185" width="14" height="14" transform="rotate(35 547 192)" opacity="0.85"/>
+    <rect x="600" y="220" width="11" height="11" opacity="0.75"/>
+    <rect x="450" y="340" width="13" height="13" transform="rotate(-20 456 346)" fill="#c084fc"/>
+    <rect x="520" y="320" width="12" height="12" transform="rotate(10 526 326)" fill="#a78bfa"/>
+    <rect x="590" y="300" width="14" height="14" fill="#e879f9" opacity="0.85"/>
+    <rect x="660" y="275" width="12" height="12" fill="#38bdf8"/>
+  </g>
+  <g transform="translate(980 160)" filter="url(#g2)">
+    <ellipse cx="0" cy="20" rx="120" ry="50" fill="url(#cloud)" opacity="0.25"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#e0f2fe">DECENTRALIZED CLOUD</text>
+    <text x="0" y="32" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" fill="#94a3b8">data-space · tokens · swarm</text>
+  </g>
+  <g stroke="#38bdf8" stroke-width="1" fill="#38bdf8" opacity="0.7">
+    <circle cx="820" cy="260" r="5"/><circle cx="880" cy="300" r="5"/><circle cx="860" cy="220" r="4"/>
+    <circle cx="940" cy="270" r="6"/><circle cx="900" cy="340" r="4"/><circle cx="980" cy="310" r="5"/>
+    <line x1="820" y1="260" x2="880" y2="300"/><line x1="880" y1="300" x2="940" y2="270"/>
+    <line x1="860" y1="220" x2="940" y2="270"/><line x1="940" y1="270" x2="980" y2="310"/>
+    <line x1="880" y1="300" x2="900" y2="340"/>
+  </g>
+  <text x="80" y="64" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#e2e8f0">SOVEREIGN DATA ECONOMY</text>
+  <text x="80" y="96" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#94a3b8">Apps store big data on the mesh · earn &amp; allocate data-space tokens</text>
+  <g font-family="Segoe UI, Arial" font-size="13" fill="#cbd5e1">
+    <text x="80" y="500">You control keys</text>
+    <text x="280" y="500">Encrypted shards only</text>
+    <text x="520" y="500">Nodes provide capacity</text>
+    <text x="780" y="500">Tokens price data-space</text>
+  </g>
+</svg>
